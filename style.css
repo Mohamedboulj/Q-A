@@ -1,0 +1,52 @@
+@font-face {
+    font-family: comfbold;
+    src: url(fonts/static/Comfortaa-Bold.ttf);
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #50a8ea ;
+
+}
+
+h2{
+    font-style:italic;
+    font-family:comfbold ;
+    font-size: 24px;
+    color: #2C3246;
+}
+div{
+    box-sizing: border-box;
+    margin: 1%;
+    width: 76vw;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+p{
+    font-weight: 400;
+    color: white;
+    margin: 1%;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+.Q{
+    font-style:italic;
+    font-family:comfbold ;
+    font-size: 18px;
+    background: #2C3246;
+}
+
+.A{
+    font-family:comfbold;
+    font-size: 16px;
+    background: #9195a0;
+
+}
+p{
+    padding: 1rem;
+}
+.hide{
+    display: none;
+}
